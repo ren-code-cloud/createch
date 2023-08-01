@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400&display=swap');
+
+
+
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #00fff6, #00e7ff);
+}
+.login-form {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.content-form {
+  width: 30rem;
+  padding: 5rem 1rem;
+  background: #1c2120;
+  color: #fff;
+  position: relative;
+  border-radius: 1rem;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.3);
+}
+
+.logo {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  width: 5rem;
+  padding: 1rem 0;
+  background: #4fbdba;
+  font-size: 1rem;
+  border-radius: 2rem;
+  text-align: center;
+}
+.logo span {
+  font-size: 1rem;
+  font-weight: 700;
+}
+.header {
+  width: 100%;
+  padding: 3rem 0;
+  position: relative;
+}
+.header h3 {
+  font-size: 1.7rem;
+  line-height: 1.5rem;
+}
+.header .form-link {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 100%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+.header .form-link span,
+.header .form-link a {
+  font-size: .9rem;
+  color: #fff;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+.content-form .form-link a:hover {
+  color: #4fbdba;
+}
+.form {
+  width: 100%;
+  padding: .5rem 4rem 1.5rem;
+}
+.content-form .form .field{
+  height: 40px;
+  width: 100%;
+  margin-top: 1rem;
+  position: relative;
+  border-radius: 6px;
+}
+.content-form .form input,
+.content-form .form button {
+  height: 100%;
+  width: 100%;
+  border: none;
+  font-size: 13px;
+  font-weight: 400;
+  border-radius: 3px;
+  padding: 0 1rem;
+}
+.field input {
+  outline: none;
+  border: 1px solid #cacaca;
+}
+.field input:focus {
+  border-bottom-width: 2px;
+}
+.eye-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  font-size: 1.4rem;
+  color: #8b8b8b;
+  cursor: pointer;
+  padding: 5px;
+}
+.field .btn {
+  color: #fff;
+  background: #4FBDBA;
+  transition:  all .3s ease;
+  cursor: pointer;
+  margin-top: 1.5rem;
+}
+.field .btn span {
+  font-size: .8rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.field button:hover {
+  background: #AFBDBA;
+}
